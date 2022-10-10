@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Oct 10 15:42:34 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : P1
+Top-level Entity Name : subtarea1
+Family : Cyclone IV E
+Total logic elements : 100
+    Total combinational functions : 65
+    Dedicated logic registers : 63
+Total registers : 63
+Total pins : 28
+Total virtual pins : 0
+Total memory bits : 256
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

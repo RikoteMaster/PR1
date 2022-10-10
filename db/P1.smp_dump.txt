@@ -1,0 +1,6 @@
+
+State Machine - |subtarea1|estado
+Name estado.vacio estado.lleno estado.otros 
+estado.vacio 0 0 0 
+estado.otros 1 0 1 
+estado.lleno 1 1 0 

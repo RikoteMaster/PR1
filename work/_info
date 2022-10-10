@@ -1,0 +1,202 @@
+m255
+K4
+z2
+!s11f vlog 2020.2 2020.04, Apr 19 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mario/Downloads/P1_prpueba
+T_opt
+!s110 1665390115
+V7ma[W`H9e00zWN88AnMYF1
+Z1 04 7 4 work fifo_tb fast 0
+=1-8cc68116b750-6343d623-1c7-6d84
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.2;71
+R0
+T_opt1
+!s110 1665402666
+V7NNd?aL29VzAilBN^zLcT2
+R1
+=17-8cc68116b750-6344072a-17f-35f4
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vbinary_counter
+Z4 !s110 1665399673
+!i10b 1
+!s100 k6ZCVSnGo6ZkG]K`6anf81
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IO<VTi:mzMWFbk;b78>2zb0
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1665255993
+8C:/Users/mario/Downloads/P1_prpueba/binary_counter.v
+FC:/Users/mario/Downloads/P1_prpueba/binary_counter.v
+!i122 20
+L0 1 26
+Z8 OL;L;2020.2;71
+r1
+!s85 0
+31
+Z9 !s108 1665399673.000000
+!s107 C:/Users/mario/Downloads/P1_prpueba/binary_counter.v|
+!s90 -reportprogress|300|-work|work|C:/Users/mario/Downloads/P1_prpueba/binary_counter.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vcontador_normal
+R4
+!i10b 1
+!s100 BNB_>M[i1;67B^a=[]Qne3
+R5
+I@maK>?AP7^ZXTP@Qz?dI42
+R6
+R0
+R7
+8C:/Users/mario/Downloads/P1_prpueba/contador_normal.v
+FC:/Users/mario/Downloads/P1_prpueba/contador_normal.v
+!i122 21
+L0 1 21
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/mario/Downloads/P1_prpueba/contador_normal.v|
+!s90 -reportprogress|300|-work|work|C:/Users/mario/Downloads/P1_prpueba/contador_normal.v|
+!i113 0
+R10
+R2
+vfifo_ideal
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z12 !s110 1665402662
+!i10b 1
+!s100 kAHi;_B<4[5lCFFk4fC;h3
+R5
+I<iB3<DCGF1]S=5CF47X5J1
+R6
+S1
+R0
+w1665389497
+8fifo_ideal.sv
+Ffifo_ideal.sv
+!i122 29
+L0 1 54
+R8
+r1
+!s85 0
+31
+Z13 !s108 1665402662.000000
+Z14 !s107 subtarea1.sv|ram_dp.sv|fifo_tb.sv|fifo_ideal.sv|
+Z15 !s90 -reportprogress|300|fifo_ideal.sv|fifo_tb.sv|ram_dp.sv|subtarea1.sv|
+!i113 0
+Z16 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfifo_tb
+R11
+DXx4 work 15 fifo_tb_sv_unit 0 22 >9d]i;24=kBX78zM1`gcD3
+R12
+R6
+r1
+!s85 0
+!i10b 1
+!s100 `zJ@IC:Y`?bWYWoLSb^fn0
+IPlHH7jOfL?<Vo3KLHmUUl1
+!s105 fifo_tb_sv_unit
+S1
+R0
+Z17 w1665402653
+Z18 8fifo_tb.sv
+Z19 Ffifo_tb.sv
+!i122 29
+L0 8 221
+R8
+31
+R13
+R14
+R15
+!i113 0
+R16
+R2
+Xfifo_tb_sv_unit
+R11
+R12
+V>9d]i;24=kBX78zM1`gcD3
+r1
+!s85 0
+!i10b 1
+!s100 5@:fe^a_nA03jbGQ>B06M0
+I>9d]i;24=kBX78zM1`gcD3
+!i103 1
+S1
+R0
+R17
+R18
+R19
+!i122 29
+L0 1 0
+R8
+31
+R13
+R14
+R15
+!i113 0
+R16
+R2
+vram_dp
+R11
+R12
+!i10b 1
+!s100 ]_IYFHS;GmH7K[`EBL<NZ1
+R5
+ISkG^Ui6Po5`ekmcBU:@Z43
+R6
+S1
+R0
+R7
+8ram_dp.sv
+Fram_dp.sv
+!i122 29
+L0 1 20
+R8
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R2
+vsubtarea1
+R11
+R12
+!i10b 1
+!s100 nDnLRdX[I51<G7RTViOa@2
+R5
+I1S4U]_PRMC3K^kL8SDXzg1
+R6
+S1
+R0
+w1665402394
+8subtarea1.sv
+Fsubtarea1.sv
+!i122 29
+L0 1 237
+R8
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R2
