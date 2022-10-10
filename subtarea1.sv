@@ -221,7 +221,7 @@ ram_dp ram_dp
 /*ASSERT PARA SI SUCEDEN EXCEPCIONES LAS AVISE POR PANTALLA*/
 
 
-/*property  llenado ;
+property  llenado ;
     (@(posedge CLOCK) not (WRITE==1'b1 && F_FULL_N==1'b0 && READ==1'b0));
 endproperty
 sobrellenado: assert property (llenado)  else $error("estas escribiendo sobre una fifo llena");
@@ -232,6 +232,6 @@ endproperty
 sobrevaciado:assert property  (vaciado) else $error("estas leyendo de una fifo vacia");
 
 nodeberia1: assert property (@(posedge CLOCK)  $rose(F_EMPTY_N) |=> not (USE_DW=='0)); 
-nodeberia2: assert property (@(posedge CLOCK)  F_FULL_N == 1'b0  |->  (USE_DW=='0));*/
+nodeberia2: assert property (@(posedge CLOCK)  F_FULL_N == 1'b0  |->  (USE_DW=='0));
   
 endmodule 

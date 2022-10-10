@@ -38,7 +38,7 @@ else
  assign vacio=cola.size()==0;      
 
  
-/*property  llenado ;
+property  llenado ;
     (@(posedge clk) not (write==1'b1 && lleno==1'b1 &&read==1'b0));
 endproperty
 sobrellenado:assert property (llenado)  else $error("estas escribiendo sobre una fifo llena");
@@ -48,7 +48,7 @@ property  vaciado ;
 endproperty
 sobrevaciado:assert property  (vaciado) else $error("estas leyendo de una fifo vacia");
 
-nodeberia1:assert property (@(posedge clk)  $fell(vacio) |=> not (use_dw=='0));*/
+nodeberia1:assert property (@(posedge clk)  $fell(vacio) |=> not (use_dw=='0));
   
 
 endmodule 
